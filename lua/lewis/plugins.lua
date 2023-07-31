@@ -50,7 +50,7 @@ return packer.startup(function(use)
 	use "rose-pine/neovim"
 	use "EdenEast/nightfox.nvim"
   use("kyoh86/momiji", {run = 'vim'})
- 
+
   --Fuzzy Finder
 	use {
 					'nvim-telescope/telescope.nvim', tag = '0.1.2',

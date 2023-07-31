@@ -14,3 +14,6 @@ vim.opt.termguicolors = true --add support for terminal colours
 vim.opt.hlsearch = false
 vim.opt.incsearch = true --inline search
 vim.opt.colorcolumn = "80" -- great
+
+vim.o.mouse = 'a' --add mouse support
+

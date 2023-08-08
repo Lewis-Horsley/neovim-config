@@ -1,11 +1,12 @@
 -- :help options
-vim.opt.tabstop = 2 --insert 2 spaces for tab
-vim.opt.softtabstop = 2 --editing tabs
-vim.opt.shiftwidth = 2 --autoindent spaces
-vim.opt.expandtab = true
-vim.opt.showtabline = 2 -- always show tabs
+-- Tab related
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.tabstop = 2 -- A tab displays as 2 spaces
+vim.opt.softtabstop = 2 -- In insert mode, a tab is worth 2 spaces
+vim.opt.shiftwidth = 2 -- When you hit shift + > or shift + < it indents or outdents by 2 spaces
+
 vim.opt.number = true --set numbered lines
-vim.opt.relativenumber = false --set relative line numbers
+vim.opt.relativenumber = true --set relative line numbers
 vim.opt.cursorline = true -- line under current line
 vim.opt.updatetime = 50 --faster completion 4000ms default
 vim.opt.cmdheight = 2 --more command line height

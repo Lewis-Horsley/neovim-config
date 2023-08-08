@@ -48,8 +48,9 @@ return packer.startup(function(use)
 
 	-- Colourschemes
 	use "rose-pine/neovim"
-	use "EdenEast/nightfox.nvim"
-  use("kyoh86/momiji", {run = 'vim'})
+
+  --Git Gutter
+  use "airblade/vim-gitgutter"
 
   --Fuzzy Finder
 	use {
@@ -66,6 +67,11 @@ return packer.startup(function(use)
 
 	--Git Fugitive
 	use 'tpope/vim-fugitive'
+
+  -- Completions engines
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-path"
+  use "hrsh7th/cmp-cmdline"
 
 	--LSP Zero
   use {
